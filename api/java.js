@@ -1,5 +1,4 @@
 // api/add.js
-const client = require("./client");
 function applyCorsHeaders(res) {
 
   res.setHeader('Access-Control-Allow-Origin', '*');
