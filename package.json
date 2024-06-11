@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./api",
+    "build": "npm install && swc src --out-dir public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@swc/cli": "^0.3.12",
+    "@swc/core": "^1.4.17",
+    "aws-sdk": "^2.1615.0",
+    "busboy": "^1.6.0",
+    "express": "^4.19.2",
+    "oracle-nosqldb": "^5.5.1"
+  }
+}
